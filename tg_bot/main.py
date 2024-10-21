@@ -2,6 +2,7 @@ import telebot
 from telebot import types
 bot = telebot.TeleBot('7857356004:AAGNMpIUS-7vL5k_qNUwas_uWSL9HUC0_YQ')
 user_data = {}
+import random
 def new_year(name, relation):
     return [
         f"С Новым годом, {name}! Пусть этот год принесет тебе много счастья и удачи. От {relation}.",
